@@ -25,8 +25,5 @@ LICENSE        # Lizenzinformationen
 3. Beginne mit dem Zeichnen!
 
 
-## Vorschau
-![Screenshot der Anwendung](screenshot.png)
-
 ---
 Viel Spaß beim Zeichnen!
