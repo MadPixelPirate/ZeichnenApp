@@ -24,8 +24,6 @@ LICENSE        # Lizenzinformationen
 2. Öffne die `index.html` im Browser deiner Wahl.
 3. Beginne mit dem Zeichnen!
 
-## Lizenz
-Dieses Projekt steht unter der MIT-Lizenz. Siehe [LICENSE](LICENSE) für weitere Informationen.
 
 ## Vorschau
 ![Screenshot der Anwendung](screenshot.png)
