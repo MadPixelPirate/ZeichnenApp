@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Zeichen-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Canvas Zeichen-App</h1>
+        <div class="toolbar">
+            <label for="colorPicker">Farbe:</label>
+            <input type="color" id="colorPicker" value="#000000">
+            <label for="lineWidth">Strichstärke:</label>
+            <input type="range" id="lineWidth" min="1" max="30" value="5">
+            <span id="lineWidthValue">5</span> px
+            <label for="alphaSlider">Deckkraft:</label>
+            <input type="range" id="alphaSlider" min="0" max="100" value="100">
+            <span id="alphaValue">100%</span>
+            <label for="bgColorPicker" style="margin-left:16px;">Hintergrund:</label>
+            <input type="color" id="bgColorPicker" value="#ffffff" title="Canvas-Hintergrundfarbe">
+            <button id="clearBtn">Löschen</button>
+            <button id="saveBtn">Speichern</button>
+        </div>
+        <div class="canvas-wrapper">
+            <canvas id="drawCanvas"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
